@@ -1,0 +1,27 @@
+<html>
+<head>
+<h1 style="text-align:center,color:black;">TRAVELLING</h1>
+<p>Travel information covers essential planning like passports, visas (e-visa for India), health advisories (check your government's site like GOV.UK for safety),
+ local customs (dress modestly, be aware of scams), and safety tips (vigilance on transport, avoiding certain areas like the India-Pakistan border or parts of 
+Jammu & Kashmir/Manipur). Key actions: get documents early, understand entry requirements (e-Arrival Card for Australia to India), use official advice, pack light, carry tissues,
+and be street smart.</p>
+</head>
+<body>
+ <video width="300"controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.ogg" type="video/ogg">
+ </video><br><br>
+ <video width="300" height="200" controls>
+  <source src="https://www.pexels.com/video/lotus-dancing-in-the-wind-854695/" type="video/mp4">
+  <source src="https://www.pexels.com/video/nature-mountain-lake-travel-4510624/" type="video/ogg">
+ </video><br><br>
+ <audio controls>
+  <source src="song.mp3" type="audio/mp3">
+  <source src="song.ogg" type="audio/ogg">
+</audio>
+
+<audio controls>
+  <source src="song1.mp3" type="audio/mp3">
+  <source src="song1.ogg" type="audio/ogg">
+</audio>
+</body

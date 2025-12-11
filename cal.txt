@@ -1,0 +1,60 @@
+#include<iostream>
+using namespace std;
+class sum
+{
+    int a,b;
+    char o;
+    public:
+    void input()
+    {
+        cout<<"enter input= ";
+        cin>>a>>o>>b;
+    }
+    int addition()
+    {
+        return a+b;
+    }
+    int subtraction()
+    {
+        return a-b;
+    }
+    int mul()
+    {
+        return a*b;
+    }
+    int division()
+    {
+        return a/b;
+    }
+    int mod()
+    {
+     return a%b;
+    }
+    void calculator()
+    {
+        if(o == ('+'))
+        display (addition());
+        else if(o == ('-'))
+        display (subtraction());
+        else if(o == ('*'))
+        display (mul());
+        else if(o == ('%'))
+        display (mod());
+        else if(o == ('/'))
+        display (division());
+        else 
+        cout<< "no";                                             
+    }
+    void display(int result)
+    {
+        cout<<"result="<<result;
+    }
+};
+int main()
+{
+    int x,y;
+    sum s;
+    s.input();
+    s.calculator();
+    return 0;
+}
